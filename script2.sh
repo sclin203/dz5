@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Скрипт для вывода всех файлов и каталогов в /var
-
 for item in /var/*
 do
     if [ -f "$item" ]; then
